@@ -1,12 +1,11 @@
-/// <reference types="Cypress" />
+/// <reference types="cypress" />
 
-describe("CanvasGoogle", () => {
- 
-   
-    it('should click a map', () => {
+describe('example to-do app', () => {
+    
+  
+    it('displays two todo items by default', () => {
 
         cy.visit("https://www.google.com")
 
-    });
-
-})  
+    })
+})    
